@@ -15,16 +15,16 @@ private:
 
 public:
 	// setter 
-	void setnome(string usuario) {
+	void setnombre(string usuario) {
 		nombre = usuario;
 	}
 	void setEmail(string e) {
 		email = e;
 	}
-	void setEndereço(string localidad) {
+	void setDireccion(string localidad) {
 		direccion = localidad;
 	}
-	void setSenha(int pw) {
+	void setContraseña(int pw) {
 		contraseña = pw;
 	}
 	void setTel(int cel) {
@@ -33,16 +33,16 @@ public:
 
 	//getter
 
-	string getNome() {
+	string getNombre() {
 		return nombre;
 	}
 	string getEmail() {
 		return email;
 	}
-	string getEndereço() {
+	string getDireccion() {
 		return direccion;
 	}
-	int getSenha() {
+	int getContraseña() {
 		return contraseña;
 	}
 	int getTel() {
