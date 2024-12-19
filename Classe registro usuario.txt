@@ -10,7 +10,7 @@ private:
 	string nombre;
 	string email;
 	string direccion;
-	int contraseña;
+	int contrasena;
 	int tel;
 
 public:
@@ -24,8 +24,8 @@ public:
 	void setDireccion(string localidad) {
 		direccion = localidad;
 	}
-	void setContraseña(int pw) {
-		contraseña = pw;
+	void setContrasena(int pw) {
+		contrasena = pw;
 	}
 	void setTel(int cel) {
 		tel = cel;
@@ -42,8 +42,8 @@ public:
 	string getDireccion() {
 		return direccion;
 	}
-	int getContraseña() {
-		return contraseña;
+	int getContrasena() {
+		return contrasena;
 	}
 	int getTel() {
 		return tel;
