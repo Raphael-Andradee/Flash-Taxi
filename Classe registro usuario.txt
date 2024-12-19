@@ -1,0 +1,51 @@
+
+
+#include "RegistroUsuario.h"
+#include <iostream>
+
+using namespace std;
+
+class RegistroUsuario {
+private:
+	string nombre;
+	string email;
+	string direccion;
+	int contraseña;
+	int tel;
+
+public:
+	// setter 
+	void setnome(string usuario) {
+		nombre = usuario;
+	}
+	void setEmail(string e) {
+		email = e;
+	}
+	void setEndereço(string localidad) {
+		direccion = localidad;
+	}
+	void setSenha(int pw) {
+		contraseña = pw;
+	}
+	void setTel(int cel) {
+		tel = cel;
+	}
+
+	//getter
+
+	string getNome() {
+		return nombre;
+	}
+	string getEmail() {
+		return email;
+	}
+	string getEndereço() {
+		return direccion;
+	}
+	int getSenha() {
+		return contraseña;
+	}
+	int getTel() {
+		return tel;
+	}
+};
